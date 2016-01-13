@@ -1,0 +1,66 @@
+.header1, .header2 {
+  background-color:#08c8e9;height:40px;color: #fff;
+}
+.header1 {
+  padding-top: 15px;
+  font-size: 18px;
+  font-weight: 100px;
+}
+.header2 {
+  padding-top: 15px;
+  font-size: 16px;
+}
+.header2 .active {
+  padding-bottom: 2px;
+  border-bottom: 2px solid #FFF;
+}
+.header-img {
+  padding: 0;
+  -webkit-box-shadow: 0px 5px 2px 0px rgba(180,180,180,1);
+  -moz-box-shadow: 0px 5px 2px 0px rgba(180,180,180,1);
+  box-shadow: 0px 5px 2px 0px rgba(180,180,180,1);
+}
+.space-hr-6 {
+  height: 6px;
+}
+.item {
+  padding-top: 6px;
+  padding-left: 10px;
+}
+.item > div > img {
+  border: 1px solid #000;
+  width: 160px;
+  height: 100px;
+  margin-top: 8px;
+  float: left;
+  margin-right: 15px;
+}
+.item > div > div {
+  margin-left: 15px;
+}
+.item-comment ul {
+  margin: 0;
+  padding: 5px;
+  list-style-type: none;
+  float: right;
+}
+
+.item-comment ul li {
+  display: inline;
+  padding-left: 10px;
+  font-size: 12px;
+  color: #aaa;
+  text-decoration: none;
+  border-radius: 4px 4px 0 0;
+}
+
+.item-comment ul li span.glyphicon {
+  font-size: 12px;
+  color: #aaa;
+  padding: 0px 5px;
+}
+
+hr {
+  margin: 3px;
+  border-top: 1px solid #ddd;
+}
